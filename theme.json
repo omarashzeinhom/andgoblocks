@@ -1,9 +1,36 @@
 {
     "version":2,
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+
     "settings":{
+        "appearanceTools": true,
         "layout":{
             "contentSize": "840px",
             "wideSize": "1100px"
-        }
+        },
+        "color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Base"
+				},
+				{
+					"slug": "contrast",
+					"name": "Contrast"
+				},
+				{
+					"slug": "primary",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"name": "Tertiary"
+				}
+			]
+		}
     }
 }
