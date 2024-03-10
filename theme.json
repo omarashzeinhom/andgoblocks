@@ -1,36 +1,89 @@
 {
-    "version":2,
+    "version": 2,
     "$schema": "https://schemas.wp.org/trunk/theme.json",
-
-    "settings":{
+    "settings": {
         "appearanceTools": true,
-        "layout":{
+        "layout": {
             "contentSize": "840px",
             "wideSize": "1100px"
         },
         "color": {
-			"palette": [
-				{
-					"slug": "base",
-					"name": "Base"
-				},
-				{
-					"slug": "contrast",
-					"name": "Contrast"
-				},
-				{
-					"slug": "primary",
-					"name": "Primary"
-				},
-				{
-					"slug": "secondary",
-					"name": "Secondary"
-				},
-				{
-					"slug": "tertiary",
-					"name": "Tertiary"
-				}
-			]
-		}
+            "palette": [
+                {
+                    "color": "#000000",
+                    "slug": "base",
+                    "name": "Base"
+                },
+                {
+                    "color": "#333333",
+                    "slug": "dark-text",
+                    "name": "Dark Text"
+                },
+                {
+                    "color": "#ffffff",
+                    "slug": "light-text",
+                    "name": "Light Text"
+                },
+                {
+                    "color": "#111111",
+                    "slug": "dark-background",
+                    "name": "Dark Background"
+                },
+                {
+                    "color": "#f5f5f5",
+                    "slug": "light-background",
+                    "name": "Light Background"
+                },
+                {
+                    "color": "#ff0000",
+                    "slug": "contrast",
+                    "name": "Contrast"
+                },
+                {
+                    "color": "#007bff",
+                    "slug": "primary",
+                    "name": "Primary"
+                },
+                {
+                    "color": "#6c757d",
+                    "slug": "secondary",
+                    "name": "Secondary"
+                },
+                {
+                    "color": "#ffc107",
+                    "slug": "tertiary",
+                    "name": "Tertiary"
+                }
+            ]
+        },
+        "typography": {
+            "fluid": true,
+            "fontFamilies": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "fontFamily": "Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif"
+                },
+                {
+                    "name": "Secondary",
+                    "slug": "secondary",
+                    "fontFamily": "system-ui, sans-serif"
+                },
+                {
+                    "name": "Rubik",
+                    "slug": "rubik",
+                    "fontFamily": "Rubik, sans-serif",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Rubik, sans-serif",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": ["file:./assets/fonts/RubikRegular.woff2"]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }
