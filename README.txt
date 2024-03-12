@@ -36,5 +36,21 @@ An answer to that question.
 * This version fixes a security related bug.  Upgrade immediately.
 
 == Resources ==
-* magnify.jpg © 2014 Jane Doe, CC0
-* supermenu.js © 2013-2015 James Today, MIT 
+
+
+AndGo Blocks WordPress Theme, Copyright 2022 Omar Ashraf Zeinhom AbdElRahman
+
+Andgoblocks is distributed under the terms of the GNU GPL
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
