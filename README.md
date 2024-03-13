@@ -2,11 +2,6 @@
 
 ## About 
 
-
-### TODOs Integrate gulp
--[gulp]()
--[livereload]()
-
 #### References
 
 - General
